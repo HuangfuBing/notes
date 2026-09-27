@@ -1,0 +1,62 @@
+{
+  "shouldConfirmBeforeCreate": false,
+  "weekStart": "monday",
+  "ctrlClickOpensInNewTab": true,
+  "showWeeklyNoteRight": false,
+  "shadeWeekendColumns": false,
+  "weekendDays": [
+    0,
+    6
+  ],
+  "dotMode": "exists",
+  "wordsPerDot": 250,
+  "showTodayButtonOnMobile": true,
+  "showYearOverview": true,
+  "localeOverride": "zh-cn",
+  "daily": {
+    "enabled": true,
+    "format": "YYYY-MM-DD",
+    "folder": "10_日记",
+    "template": "99_系统/模板/每日记录模板"
+  },
+  "weekly": {
+    "enabled": true,
+    "format": "GGGG-[W]WW",
+    "folder": "20_复盘/周复盘",
+    "template": "99_系统/模板/周复盘模板"
+  },
+  "monthly": {
+    "enabled": true,
+    "format": "YYYY-MM",
+    "folder": "20_复盘/月复盘",
+    "template": "99_系统/模板/月复盘模板"
+  },
+  "quarterly": {
+    "enabled": false,
+    "format": "YYYY-[Q]Q",
+    "folder": "",
+    "template": ""
+  },
+  "yearly": {
+    "enabled": true,
+    "format": "YYYY",
+    "folder": "20_复盘/年度复盘",
+    "template": "99_系统/模板/年度复盘模板"
+  },
+  "secondDaily": {
+    "enabled": false,
+    "format": "YYYY-MM-DD",
+    "folder": "",
+    "template": ""
+  },
+  "featureImage": {
+    "enabled": false,
+    "frontmatterProperties": [
+      "banner",
+      "image",
+      "cover"
+    ],
+    "showForWeekly": true,
+    "hiddenNotes": []
+  }
+}

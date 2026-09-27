@@ -1,0 +1,23 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - '!file.inFolder("99_系统")'
+    - 'file.path != "01_主页/主页.md"'
+    - 'file.path != "欢迎.md"'
+    - 'type != "index"'
+    - 'type != "archive"'
+properties:
+  file.name:
+    displayName: 笔记
+  file.mtime:
+    displayName: 最近修改
+views:
+  - type: list
+    name: 最近修改
+    limit: 8
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
